@@ -17,10 +17,10 @@ while True:
  if operator =='/':
     if num2 == 0:
         print("math error cannot divide by zero")
-    if (num2 !=0):
-        print("Result: " ,num1/num2) 
- else:
-    print("wrong operator selected")
+    elif num2 !=0:
+        print("Result: " ,num1/num2)
+ elif():
+    print ("wrong operator selected continue to next question")
  #now we ask user if he wants to check that his number is even or odd.
  evenodd =input("Plz type 'y' if u would like to check if the given numbers are even/odd ")
 
